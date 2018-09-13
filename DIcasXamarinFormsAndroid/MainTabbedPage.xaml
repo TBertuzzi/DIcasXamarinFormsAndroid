@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIcasXamarinFormsAndroid.MainTabbedPage"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+              android:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="#2196F3"
+            BarTextColor="White"
+            android:TabbedPage.BarItemColor="#66FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White"
+             >
+    
+    <ContentPage  Title="Games" Icon="gamecontroller.png" />
+    <ContentPage  Title="Calendario" Icon="calendar.png"/>
+    <ContentPage  Title="Games2" Icon="gamecontroller.png" />
+    <ContentPage  Title="Calendario2" Icon="calendar.png"/>
+    <ContentPage  Title="Games3" Icon="gamecontroller.png" />
+    
+</TabbedPage>
